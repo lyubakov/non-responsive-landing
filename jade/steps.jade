@@ -1,0 +1,59 @@
+-
+	var stepsLi1 = [
+		["2","img/steps_icons/",""],
+		["3","img/steps_icons/",""],
+		["4","img/steps_icons/",""]
+	]
+-
+	var stepsLi2 = [
+		["5","",""],
+		["6","",""],
+		["7","",""]
+	]
+-
+	var stepsLi3 = [
+		["8","img/steps_icons/",""],
+		["9","img/steps_icons/",""]
+	]
+section(id="steps").section.section_steps
+	.container
+		h2.section__header Этапы работы
+		h3.section__description 
+		ul.steps-list
+			.steps-list__row.steps-list__row_1
+				li.steps-list__item.list-item
+					.item-number
+						p.item-number__digit 1
+					.item-logo
+						img.item-logo__image.item-logo__image_1(src="img/steps_icons/call.svg", alt="")
+					.item-description
+						button.button-cta.modalCall Оставляете заявку
+				img.steps-list__item-separator.steps-list__item-separator_1(src="img/ui_elements/nextstep.svg", alt="")
+				each item in stepsLi1
+					li.steps-list__item.list-item
+						.item-number
+							p.item-number__digit #{item[0]}
+						.item-logo
+							img.item-logo__image(src="#{item[1]}", alt="" class="item-logo__image_#{item[0]}")
+						h4.item-description #{item[2]}
+					img.steps-list__item-separator(src="img/ui_elements/nextstep.svg", alt="",class="steps-list__item-separator_#{item[0]}")
+			.steps-list__row.steps-list__row_2
+				each item in stepsLi2
+					li.steps-list__item.list-item
+						.item-number
+							p.item-number__digit #{item[0]}
+						.item-logo
+							img.item-logo__image(src="#{item[1]}", alt="" class="item-logo__image_#{item[0]}")
+						h4.item-description #{item[2]}
+					img.steps-list__item-separator(src="img/ui_elements/nextstep.svg", alt="",class="steps-list__item-separator_#{item[0]}")
+			.steps-list__row.steps-list__row_3
+				each item in stepsLi3
+					li.steps-list__item.list-item
+						.item-number
+							p.item-number__digit #{item[0]}
+						.item-logo
+							img.item-logo__image(src="#{item[1]}", alt="" class="item-logo__image_#{item[0]}")
+						h4.item-description #{item[2]}
+					img.steps-list__item-separator(src="img/ui_elements/nextstep.svg", alt="",class="steps-list__item-separator_#{item[0]}")
+						
+

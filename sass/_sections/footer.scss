@@ -1,0 +1,21 @@
+.footer{
+	background-color: $second-color;
+}
+.footer-container{
+}
+.footer__block{
+	display: inline-block;
+}
+.footer__text_regular {
+	margin-left: 25px;
+	display: inline-block;
+}
+.footer__text_bold{
+	display: inline-block;
+}
+.footer__block{
+	margin-left: 290px;
+}
+.footer__block:first-child{
+	margin-left: 0;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Abris",
+  "devDependencies": {
+    "jquery": "~2.2.2",
+    "animate.css": "^3.5.1",
+    "html5shiv": "^3.7.3",
+    "normalize-css": "^4.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+.section_pain{
+	background-color: #fff;
+}
+.pain-list{
+	display: block;
+}
+.pain-list__logo{
+}
+.pain-list__item{
+}
+.pain-list__item:first-child{
+	margin-left: 0;
+}
+.pain-list__item:nth-child(3){
+	.pain-list__logo{
+	}
+}
+.pain-list__item-description{
+	text-align: center;
+}

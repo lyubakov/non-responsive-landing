@@ -1,0 +1,27 @@
+.header{
+	padding: 20px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+	display: block;
+}
+.nav-block{
+	float: left;
+}
+.nav{
+}
+.nav__item:first-child{
+	margin-left: 0;
+}
+.nav__item{
+	display: inline-block;
+}
+.call-block{
+	float: left;
+}
+.call-block__item:hover{
+	cursor: pointer;
+}

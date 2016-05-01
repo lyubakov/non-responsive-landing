@@ -1,0 +1,26 @@
+extends main
+
+block title
+	| Главная страница
+
+block content
+	.wrapper
+		.header-container
+			include header
+		include firstscreen
+		.container
+			include pain
+		include steps
+		include map
+		.container
+			include lastcta
+		include bpopup
+		include footer
+	script(src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+	script(src="js/jquery.parallax.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/bPopup/0.11.0/jquery.bpopup.js")
+	script(src="js/scroll.js")
+	script(src="js/main.js")
+	script(src="js/formsend.js")
+	

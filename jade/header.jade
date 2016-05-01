@@ -1,0 +1,18 @@
+-
+	var navLi = [
+		["#top",""],
+		["#pain",""],
+		["#steps",""],
+		["#map",""],
+		["#lastcta",""]
+	]
+header.header
+	img(src="").logo 
+	.nav-block
+		ul.nav
+			each item in navLi
+				li.nav__item
+					a.nav__link(href="#{item[0]}") #{item[1]}
+	.call-block
+		a.call-block__item.modalCall Заказать звонок
+		a.call-block__item(href="#") 8 846 990 12 88

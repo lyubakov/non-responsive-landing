@@ -1,0 +1,16 @@
+-
+	var painLi = [
+		["img/pain_icons/",""],
+		["img/pain_icons/",""],
+		["img/pain_icons/",""],
+		["img/pain_icons/",""],
+		["img/pain_icons/",""],
+	]
+section.section.section_pain
+	h2(id="pain").section__header 
+	h3.section__description 
+	ul.pain-list
+		each item in painLi
+			li.pain-list__item.list-item
+				img(src="#{item[0]}", alt="" class="pain-list__logo")
+				h4.pain-list__item-description #{item[1]}
