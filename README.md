@@ -1,3 +1,4 @@
+
 > Static non-responsive landing page starter pack 
 > Requires Jade, Scss, jQuery
 1. git clone https://github.com/lyubakov/non-responsive-landing.git
